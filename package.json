@@ -1,6 +1,6 @@
 {
   "name": "non-ascii",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Regular expression for matching non-ASCII characters",
   "license": "MIT",
   "repository": "sindresorhus/non-ascii",
