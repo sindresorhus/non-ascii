@@ -1,1 +1,1 @@
-module.exports = /[^\x00-\x80]+/;
+module.exports = /[^\x00-\x7F]+/;
