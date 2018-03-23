@@ -1,8 +1,7 @@
-'use strict';
-var assert = require('assert');
-var nonAscii = require('./');
+import test from 'ava';
+import m from '.';
 
-it('matches non-ascii characters', function () {
-	assert(nonAscii.test('ø'));
-	assert(!nonAscii.test('a'));
+test('matches non-ascii characters', t => {
+	t.true(m.test('ø'));
+	t.false(m.test('a'));
 });

@@ -5,15 +5,15 @@
 
 ## Install
 
-```sh
-$ npm install --save non-ascii
+```
+$ npm install non-ascii
 ```
 
 
 ## Usage
 
 ```js
-var nonAscii = require('non-ascii');
+const nonAscii = require('non-ascii');
 
 nonAscii.test('hællæ');
 //=> true
@@ -25,4 +25,4 @@ nonAscii.test('unicorn');
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Sindre Sorhus](https://sindresorhus.com)

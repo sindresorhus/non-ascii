@@ -1,34 +1,35 @@
 {
-  "name": "non-ascii",
-  "version": "1.0.1",
-  "description": "Regular expression for matching non-ASCII characters",
-  "license": "MIT",
-  "repository": "sindresorhus/non-ascii",
-  "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "http://sindresorhus.com"
-  },
-  "engines": {
-    "node": ">=0.10.0"
-  },
-  "scripts": {
-    "test": "mocha"
-  },
-  "files": [
-    "index.js"
-  ],
-  "keywords": [
-    "ascii",
-    "unicode",
-    "regex",
-    "regexp",
-    "regular",
-    "expression",
-    "match",
-    "test"
-  ],
-  "devDependencies": {
-    "mocha": "*"
-  }
+	"name": "non-ascii",
+	"version": "1.0.1",
+	"description": "Regular expression for matching non-ASCII characters",
+	"license": "MIT",
+	"repository": "sindresorhus/non-ascii",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "sindresorhus.com"
+	},
+	"engines": {
+		"node": ">=6"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"ascii",
+		"unicode",
+		"regex",
+		"regexp",
+		"regular",
+		"expression",
+		"match",
+		"test"
+	],
+	"devDependencies": {
+		"ava": "*",
+		"xo": "*"
+	}
 }
