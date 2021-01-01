@@ -1,4 +1,4 @@
-# non-ascii [![Build Status](https://travis-ci.org/sindresorhus/non-ascii.svg?branch=master)](https://travis-ci.org/sindresorhus/non-ascii)
+# non-ascii
 
 > Regular expression for matching non-ASCII characters
 
