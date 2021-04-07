@@ -2,18 +2,16 @@
 
 > Regular expression for matching non-ASCII characters
 
-
 ## Install
 
 ```
 $ npm install non-ascii
 ```
 
-
 ## Usage
 
 ```js
-const nonAscii = require('non-ascii');
+import nonAscii from 'non-ascii';
 
 nonAscii.test('hællæ');
 //=> true
@@ -21,8 +19,3 @@ nonAscii.test('hællæ');
 nonAscii.test('unicorn');
 //=> false
 ```
-
-
-## License
-
-MIT © [Sindre Sorhus](https://sindresorhus.com)

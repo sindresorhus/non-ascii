@@ -1,7 +1,7 @@
 import test from 'ava';
-import m from '.';
+import nonAscii from './index.js';
 
 test('matches non-ascii characters', t => {
-	t.true(m.test('ø'));
-	t.false(m.test('a'));
+	t.regex('ø', nonAscii);
+	t.notRegex('a', nonAscii);
 });
